@@ -1,0 +1,159 @@
+/* Revendo Logo */ 
+#logo{
+	width: 45%;
+	display: inline-block;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+ /* Plus icon for search box */ 
+#plus{
+  background-color: #00b300;
+  background-image: url("https://img.icons8.com/small/16/ffffff/plus.png/");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: 120px 10px; 
+  border: 1px solid #00b300;
+  border-radius: 100px;
+  color: white; 
+  padding: 10px 10px; 
+  width: 110%; 
+  display: block; 
+  margin-bottom: 20px;
+}
+/* Home icon for All contacts button */
+#home{
+  background-color: white;
+  background-image: url("https://img.icons8.com/small/16/000000/home.png/");
+  background-position: 117px 10px; 
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  color: black; 
+  padding: 10px 10px; 
+  width: 110%; 
+  display: block; 
+  margin-bottom: 20px;
+}
+/* Heart icon for My favorites button */
+#heart{
+  background-color: white;
+  background-image: url("https://img.icons8.com/material-outlined/24/000000/like--v1.png/");
+  background-position: 112px 7px; 
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  color: black; 
+  padding: 10px 10px; 
+  width: 110%; 
+  display: block; 
+}
+/* Left division */ 
+div{
+  border-right: 1px solid #ddd;
+  padding:0px 55px 800px 20px;
+  width: 350px;
+}
+/* left arrow, when you click you go to the first page */
+#leftarrow{
+	position: absolute;
+	color: white;
+	background-color: white;
+  	border: none;
+	top: 80px;
+	left: 530px;
+	padding: 28px 38px;
+	background-image: url("https://img.icons8.com/ios/50/000000/left.png");
+    background-position: 19px 3px; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/* Person image */
+#personimg{
+	float: left;
+	border-radius: 6px; 
+	width: 8%;
+}
+/* Favorite button heart icon */
+#heart1{
+  background-color: white;
+  background-image: url("https://img.icons8.com/material-outlined/24/26e07f/like--v1.png");
+  background-position: 10px 10px ;
+  background-repeat: no-repeat;
+  color:  #00b300; 
+  padding: 20px;
+  border: none;
+  width: 7%; 
+  display: inline;
+  position: absolute;
+  top: 87px;
+  left: 125px;
+}
+/* Edit button in table */
+#edit{
+	position: absolute;
+	top: 70px;
+	right: 35px;
+	width: 5%;
+	height: 8%;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+table{
+  border: 1px solid  #ddd;
+  border-top: none;
+}
+
+table {
+  width: 63%;
+  position: absolute;
+  top: 130px;
+  left: 553px;
+}
+
+#detailedperson{
+	padding: 40px 16px 30px 15px;
+	border-top: none;
+	font-size: 30px;
+	font-family: verdana, sans-serif;
+}
+
+#detailedperson p{
+    position: absolute;
+    top: 15px;
+    left: 130px;
+}
+#emailaddress{
+	padding: 20px 16px 25px 15px;
+	color: #999999;
+}
+#emailaddress p{
+	color: black;
+}
+#numbers{
+	padding: 0px 16px;
+	color: #999999;
+	font-size: 17px;
+}
+
+#numparagraph{
+	display: inline;
+	float: left;
+}
+
+#numparagraph1{
+	display: inline;
+	float: left;
+}
+
+/*paragraph showing that the number is the home number */ 
+#home1{
+	display: inline;
+	float: right;
+	color: #00b300;
+}
+/*paragraph showing that the number is the work number */ 
+#work{
+	display: inline;
+	float: right;
+	color: #00b300;
+}

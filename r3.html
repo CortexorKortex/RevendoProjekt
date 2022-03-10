@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"  href="r3.css">
+
+	<title>Contact List 3</title>
+</head>
+<body>
+	<!-- JavaScript alert box code for the delete button-->
+	<script>
+		function myFunction() {
+		
+  		if (confirm("Are you sure you want to delete this contact?")) {
+    	window.location = '/Users/Teilnehmer/Desktop/revendo/r.html';
+    	//They clicked yes
+  } 	else {
+  		//They clicked no
+    	window.location = '/Users/Teilnehmer/Desktop/revendo/r.html';
+  }
+}
+
+	</script>
+	<div id="leftdiv">
+	<!-- Left division --> 
+	<img id="logo" src="revendo.jpeg" alt="logo" onClick="location.href='r.html'">
+	<button type="button" id="plus">New contact</button>
+	<button type="button" id="home">All contacts</button>
+	<button type="button" id="heart">My favorites</button> 
+	</div>
+	<!-- left arrow, click takes you to the first page -->
+	<button type="button" onClick="location.href='r.html'"id="leftarrow"></button>
+	<table>
+		<tr>
+			<!-- Row that you can edit -->
+			<td id="editoptions">
+				<!-- User image -->
+				<img id="personimg" src="https://randomuser.me/api/portraits/men/97.jpg">
+				<!-- Delete button -->
+				<button type="button" id="delete" onclick="myFunction()">Delete</button>
+				<!-- Save button -->
+				<button type="button" id="save">Save</button>
+				<!-- Cancel button -->
+				<button type="button" id="cancel">Cancel</button>
+			</td>
+		</tr>
+		<tr>
+			<!-- Row for the name and mail of the person -->
+			<td id="NameMail">
+				<form>
+  					<label for="fname" id="fnamelabel">Full Name</label><br>
+  					<input type="text" id="fnameph" name="fname" placeholder="Ege Saglik"><br>
+  					<label for="lmail" id="eaddresslabel">Email address</label><br>
+  					<input type="text" id="lmailph" name="lmail" placeholder="you@gmail.com">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<!-- Row for the number and details of the person -->
+			<td id="NumberDetail">
+				<form>
+  					<label for="fnum" id="numberslabel">Numbers</label><br>
+  					<input type="text" id="phonenum" name="fnum" placeholder="phone number">
+  					<input type="text" id="details" name="ldet" placeholder="details"> <br>
+  					<input type="text" id="phonenum1" name="fnum1" placeholder="phone number">
+  					<input type="text" id="details1" name="ldet1" placeholder="details">
+				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

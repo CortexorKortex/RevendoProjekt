@@ -1,0 +1,153 @@
+/* Revendo Logo */ 
+img{
+	width: 45%;
+	display: inline-block;
+  padding-bottom: 20px;
+  cursor: pointer;
+	} 
+  /* Plus icon for New contacts*/ 
+ #plus{
+  background-color: #00b300;
+  background-image: url("https://img.icons8.com/small/16/ffffff/plus.png/");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: 120px 10px; 
+  border: 1px solid #00b300;
+  border-radius: 100px;
+  color: white; 
+  padding: 10px 10px; 
+  width: 110%; 
+  display: block; 
+  margin-bottom: 20px;
+
+}
+/* Home icon for All contacts button */
+#home{
+  background-color: white;
+  background-image: url("https://img.icons8.com/small/16/000000/home.png/");
+  background-position: 117px 10px; 
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  color: black; 
+  padding: 10px 10px; 
+  width: 110%; 
+  display: block; 
+  margin-bottom: 20px;
+}
+/* Heart icon for My favorites button */
+#heart{
+  background-color: white;
+  background-image: url("https://img.icons8.com/material-outlined/24/000000/like--v1.png/");
+  background-position: 112px 7px; 
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  color: black; 
+  padding: 10px 10px; 
+  width: 110%; 
+  display: block; 
+}
+/* Magnifying glass icon for search box */ 
+#searchbox{
+  float: right;
+  position: absolute;
+  right: 300px;
+  background-image: url('https://www.w3schools.com/css/searchicon.png'); 
+  background-position: 10px 12px; 
+  background-repeat: no-repeat; 
+  width: 15%; 
+  font-size: 12px; 
+  padding: 20px 700px 30px 60px; 
+  border-bottom: 1px solid #ddd;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-bottom: 50px;
+  display: inline; 
+}
+/* Left division */ 
+div{
+  border-right: 1px solid #ddd;
+  padding:0px 55px 800px 20px;
+  width: 350px;
+}
+table{
+  float: right;
+  position: absolute;
+  top: 150px;
+  left: 555px;
+  padding: 50px 920px 450px 50px;
+}
+table tr th{
+  text-align: left;
+}
+
+#nametable {
+  border-collapse: collapse;
+  width: 55%;
+}
+
+#nametable td, #nametable th {
+  border: 1px solid #ddd;
+  padding: 28px;
+}
+
+#nametable th {
+  padding-top: 8px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: #808080;
+}
+#nametable td{
+
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+#person{
+  cursor: pointer;
+}
+/* Person image */
+#person img{
+  width: 5%;
+  float: left;
+  position: relative;
+  right: 80px;
+  border-radius: 3px;
+}
+#person p{
+  color:  #999999;
+}
+/* Delete button in table */
+#delete{
+  float: right;
+  color: #00b300;
+  background-color: white;
+  border: 1px solid white;
+  padding-top: 15px;
+  cursor: pointer;
+}
+/* Edit button in table */
+#edit{
+  float: right;
+  color: #00b300;
+  background-color: white;
+  border: 1px solid white;
+  padding-top: 15px;
+  padding-right: 60px;
+  cursor: pointer;
+}
+/* Favorite button heart icon */
+#heart1{
+  float: right;
+  background-color: white;
+  background-image: url("https://img.icons8.com/material-outlined/24/26e07f/like--v1.png");
+  background-position: 40px 10px ;
+  background-repeat: no-repeat;
+  color:  #00b300; 
+  border: 1px solid white;
+  padding: 50px 60px; 
+  width: 9%; 
+  display: inline;
+  padding-top: 10px;
+}
+

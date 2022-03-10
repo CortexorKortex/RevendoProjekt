@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"  href="rc2.css">
+
+	<title>Contact List 2</title>
+</head>
+<body>
+	<!-- Left division --> 
+	<div>
+	<!<!-- Logo, and when you click on the logo you go to the first page -->
+	<img id="logo" src="revendo.jpeg" alt="logo" onClick="location.href='r.html'">
+	<button type="button" onClick="location.href='r3.html'" id="plus">New contact</button>
+	<button type="button" id="home">All contacts</button>
+	<button type="button" id="heart">My favorites</button> 
+	</div>
+	<!-- left arrow, click takes you to the first page -->
+	<button type="button" onClick="location.href='r.html'"id="leftarrow"></button>
+	<table>
+		<tr>
+			<td id="detailedperson">
+				<!-- User image -->
+				<img id="personimg" src="https://randomuser.me/api/portraits/men/97.jpg">
+				<p>Ege Saglik </p>
+				<!-- Favorite button -->
+				<button type="button" id="heart1"></button>
+				<!-- Edit button -->
+				<button type="button" onClick="location.href='r3.html'" id="edit">Edit</button>
+
+			</td>
+		</tr>
+		<tr>
+			<!-- Email address row -->
+			<td id="emailaddress">
+				Email address
+				<p>egesaglikk@gmail.com</p>
+			</td>
+		</tr>
+		<tr>
+			<!-- Numbers row -->
+			<td id="numbers">
+			Numbers
+			</td>
+		</tr>
+		<tr>
+			<!-- Home number -->
+			<td><p id="numparagraph">+41 76 805 61 04</p> <p id="home1">Home</p></td>
+		</tr>
+		<tr>
+			<!-- Work number -->
+			<td><p id="numparagraph1">+41 76 805 61 40</p> <p id="work">Work</td>
+		</tr>
+	</table>
+</body>
+</html>

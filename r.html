@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="rc.css">
+	<title>Contact List</title>
+</head>
+<body>
+	<!-- JavaScript alert box code for the delete button-->
+	<script>
+		function myFunction() {
+		
+  		if (confirm("Are you sure you want to delete this contact?")) {
+    	window.location = '/Users/Teilnehmer/Desktop/revendo/r.html';
+    	//They clicked yes
+  } 	else {
+  		//They clicked no
+    	window.location = '/Users/Teilnehmer/Desktop/revendo/r.html';
+  }
+}
+	</script>
+	<!-- Search box top of the Page-->
+	<input type="text" id="searchbox" placeholder="Search">
+	<!-- Left division of the page -->
+	<div>
+	<!-- Logo, and when you click on the logo you go to the home page of revendo -->
+	<img src="revendo.jpeg" alt="logo" onClick="location.href='https://revendo.ch/'" >
+	<button type="button" onClick="location.href='r3.html'" id="plus">New contact</button>
+	<button type="button" id="home">All contacts</button>
+	<button type="button" id="heart">My favorites</button> 
+	</div>
+	<!-- Name Table -->
+	<table id="nametable">
+			<tr>
+				<th>Name</th>
+			</tr>
+			<tr>
+				<td id="person">Ege Saglik 
+				<!-- Delete button -->
+				<button type="button" id="delete" onclick="myFunction()">Delete</button>
+				<!-- Edit button -->
+				<button type="button" onClick="location.href='r3.html'" id="edit">Edit</button>
+				<!-- Favorite button -->
+				<button id="heart1"></button>
+				<!-- User image -->
+				<img src="https://randomuser.me/api/portraits/men/97.jpg" onClick="location.href='r2.html'">
+				<p onClick="location.href='r2.html'">egesaglikk@gmail.com</p></td>
+			</tr>
+			<tr>
+				<td id="person">Adrian Schmid 
+				<button type="button" id="delete">Delete</button> 
+				<button type="button" id="edit">Edit</button>
+				<button type="button" id="heart1"></button>
+				<img src="https://randomuser.me/api/portraits/men/97.jpg">
+				<p>egesaglikk@gmail.com</p></td>
+			</tr>
+			<tr>
+				<td id="person">Ege Saglik 
+				<button type="button" id="delete">Delete</button> 
+				<button type="button" id="edit">Edit</button>
+				<button type="button" id="heart1"></button>
+				<img src="https://randomuser.me/api/portraits/men/97.jpg">
+				<p>egesaglikk@gmail.com</p></td>
+			</tr>
+			<tr>
+				<td id="person">Ege Saglik 
+				<button type="button" id="delete">Delete</button> 
+				<button type="button" id="edit">Edit</button>
+				<button type="button" id="heart1"></button>
+				<img src="https://randomuser.me/api/portraits/men/97.jpg">
+				<p>egesaglikk@gmail.com</p></td>
+			</tr>
+			<tr>
+				<td id="person">Ege Saglik 
+				<button type="button" id="delete">Delete</button> 
+				<button type="button" id="edit">Edit</button>
+				<button type="button" id="heart1"></button>
+				<img src="https://randomuser.me/api/portraits/men/97.jpg">
+				<p>egesaglikk@gmail.com</p></td>
+			</tr>
+			<tr>
+				<td id="person">Ege Saglik 
+				<button type="button" id="delete">Delete</button> 
+				<button type="button" id="edit">Edit</button>
+				<button type="button" id="heart1"></button>
+				<img src="https://randomuser.me/api/portraits/men/97.jpg">
+				<p>egesaglikk@gmail.com</p></td>
+			</tr>
+		</table>
+</body>
+</html>
